@@ -1,0 +1,82 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CRuntime (2.1.2)
+  - Differentiator (3.1.0)
+  - Kingfisher (5.13.0):
+    - Kingfisher/Core (= 5.13.0)
+  - Kingfisher/Core (5.13.0)
+  - MVVMCore (0.0.1):
+    - Alamofire (~> 4.8.0)
+    - RxCocoa (~> 4.4.0)
+    - RxSwift (~> 4.4.0)
+  - Realm (4.3.0):
+    - Realm/Headers (= 4.3.0)
+  - Realm/Headers (4.3.0)
+  - RealmSwift (4.3.0):
+    - Realm (= 4.3.0)
+  - Runtime (2.1.0):
+    - CRuntime
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - SwiftLint (0.35.0)
+  - Unrealm (1.0.1):
+    - RealmSwift (= 4.3.0)
+    - Runtime (= 2.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.0)
+  - Kingfisher (~> 5.13.0)
+  - MVVMCore (from `./MVVMCore`)
+  - RealmSwift (~> 4.3.0)
+  - RxCocoa (~> 4.4.0)
+  - RxDataSources (~> 3.1.0)
+  - RxSwift (~> 4.4.0)
+  - SwiftLint (~> 0.35.0)
+  - Unrealm (~> 1.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CRuntime
+    - Differentiator
+    - Kingfisher
+    - Realm
+    - RealmSwift
+    - Runtime
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SwiftLint
+    - Unrealm
+
+EXTERNAL SOURCES:
+  MVVMCore:
+    :path: "./MVVMCore"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CRuntime: d7ae373e07ab36e92ad273259557e3817e0c214b
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Kingfisher: 0d334cada987fcddbe9b5cec516406e1ee9d4748
+  MVVMCore: 15b7c622cf5dee0d1492991711e2ac02d2f3eb31
+  Realm: 9357c3589555793e1860a7104a7412bca4a48d99
+  RealmSwift: 402f1e379a8ef82c635313037b043f0f06de880c
+  Runtime: 3e42815d18fa3075631768e79f02be2ad7e2b18f
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  SwiftLint: 5553187048b900c91aa03552807681bb6b027846
+  Unrealm: 3f3ceac8056952d029d8cfe4688935b99e2f6de6
+
+PODFILE CHECKSUM: 2004f322c8ab75d59edb59ec44f8a20457af4eb0
+
+COCOAPODS: 1.8.4
